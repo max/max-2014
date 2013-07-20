@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 html,
 body {
@@ -9,7 +9,7 @@ body {
   background: white;
   border-top: 4px solid black;
   color: #444;
-  font-family: "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-family: 'helvetica neue', helvetica, arial, geneva, sans-serif;
   font-size: 18px;
   padding: 8%;
 }
