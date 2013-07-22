@@ -1,5 +1,6 @@
-var express = require('express');
-var app = express();
-app.use(express.logger('dev'));
-app.use('/', express.static('public', {maxAge: 1000*60*60*24}));
-app.listen(process.env.PORT || 5000);
+var connect = require('connect');
+
+connect.createServer(
+  connect.logger(),
+  connect.static(__dirname + '/public', {maxAge: 1000*60*60*24})
+).listen(process.env.PORT || 5000);
