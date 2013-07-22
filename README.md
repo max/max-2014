@@ -45,7 +45,6 @@ $ git push heroku master
 ```
 
 [Node.js]: http://nodejs.org/
-[node-installer]: http://nodejs.org/
 [Heroku]: https://www.heroku.com/
 [toolbelt]: https://toolbelt.heroku.com/
 [Homebrew]: http://mxcl.github.io/homebrew/
