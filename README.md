@@ -4,11 +4,8 @@ A simple [Node.js] wrapper to run static sties on [Heroku].
 
 ## Running locally
 
-The easiest way to install Node.js is via [Homebrew]:
-
-```
-$ brew install node
-```
+The easiest way to install Node.js is via the [official installer][Node.js]. A
+few clicks and you're done.
 
 Once you have Node.js installed make sure to download the source of this site
 to your development machine:
@@ -48,6 +45,7 @@ $ git push heroku master
 ```
 
 [Node.js]: http://nodejs.org/
+[node-installer]: http://nodejs.org/
 [Heroku]: https://www.heroku.com/
 [toolbelt]: https://toolbelt.heroku.com/
 [Homebrew]: http://mxcl.github.io/homebrew/
