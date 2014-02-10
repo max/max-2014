@@ -1,9 +1,0 @@
-{
-  "name": "maximilianschoening.com",
-  "description": "My personal site",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "connect": "2.x"
-  }
-}
