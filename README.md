@@ -1,6 +1,6 @@
 # My personal site
 
-A simple [Node.js] wrapper to run static sties on [Heroku].
+A simple [Harp] site running on [Heroku].
 
 ## Running locally
 
@@ -10,41 +10,28 @@ few clicks and you're done.
 Once you have Node.js installed make sure to download the source of this site
 to your development machine:
 
+Once you have Node.js on your local development environment make sure to set up Harp, download the latest version of this site, and start the Harp server:
+
 ```
+$ npm install -g harp
 $ git clone git@github.com:max/max.git
-```
-
-Then install the dependencies required to run the application:
-
-```
 $ cd max
-$ npm install
+$ harp server ./
 ```
-
-To run this app [install the latest version of the Heroku toolbelt][toolbelt]
-and from within the directoy run:
-
-```
-$ foreman start
-$ open http://localhost:5000/
-```
-
-## Rolling your own markup and styles
-
-Generally you should be able to ignore the `Procfile` as well as the
-`package.json` and `server.js` files.
-
-Everything you put into the `public` directory will be served so editing the
-`index.html` file and the included stylesheet should be all you need.
 
 ## Deploying to Heroku
 
+To deploy this app to Heroku you need to first install the latest version of
+the Heroku [Toolbelt] and then run:
+
 ```
 $ heroku create
+$ heroku config:set BUILDPACK_URL=https://github.com/zeke/harp-buildpack.git
 $ git push heroku master
+$ heroku open
 ```
 
-[Node.js]: http://nodejs.org/
+[Harp]: http://harpjs.com/
 [Heroku]: https://www.heroku.com/
 [toolbelt]: https://toolbelt.heroku.com/
 [Homebrew]: http://mxcl.github.io/homebrew/
