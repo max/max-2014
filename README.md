@@ -2,7 +2,7 @@
 
 A simple [Harp] site.
 
-![Heroku](http://cl.ly/image/020C13263F3w/deploy-button.png)
+![Heroku](http://cl.ly/image/2g3o1M3L1l44/deploy-button.png)
 
 ## Running locally
 
@@ -22,6 +22,6 @@ $ harp server ./
 ```
 
 [Harp]: http://harpjs.com/
-[Heroku]: https://www.heroku.com/
+[Heroku]: https://debut.heroku.com/?url=https://github.com/max/max
 [toolbelt]: https://toolbelt.heroku.com/
 [Homebrew]: http://mxcl.github.io/homebrew/
