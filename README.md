@@ -9,10 +9,7 @@ A simple [Harp] site.
 The easiest way to install Node.js is via the [official installer][Node.js]. A
 few clicks and you're done.
 
-Once you have Node.js installed make sure to download the source of this site
-to your development machine:
-
-Once you have Node.js on your local development environment make sure to set up Harp, download the latest version of this site, and start the Harp server:
+Once you have Node.js installed simply follow these steps:
 
 ```
 $ npm install -g harp
