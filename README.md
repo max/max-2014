@@ -23,5 +23,4 @@ $ harp server ./
 
 [Harp]: http://harpjs.com/
 [Heroku]: https://debut.heroku.com/?url=https://github.com/max/max
-[toolbelt]: https://toolbelt.heroku.com/
-[Homebrew]: http://mxcl.github.io/homebrew/
+[Node.js]: http://nodejs.org/
