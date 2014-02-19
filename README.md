@@ -2,7 +2,7 @@
 
 A simple [Harp] site.
 
-![Heroku](http://cl.ly/image/2g3o1M3L1l44/deploy-button.png)
+![Heroku](http://cl.ly/image/2k3m2z443T01/deploy-button.png)
 
 ## Running locally
 
