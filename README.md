@@ -1,8 +1,8 @@
 # My personal site
 
-A simple [Harp] site running on [Heroku].
+A simple [Harp] site.
 
-![http://cl.ly/image/020C13263F3w/deploy-button.png](http://cl.ly/image/020C13263F3w/deploy-button.png)
+![Heroku](http://cl.ly/image/020C13263F3w/deploy-button.png)
 
 ## Running locally
 
