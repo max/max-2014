@@ -1,0 +1,10 @@
+{
+  "name": "Max's personal site",
+  "appDescription": "A simple [Harp](http://harpjs.com/) site.",
+  "buildpack": "git://github.com:zeke/harp-sample.git",
+  "config": {
+    "keys": []
+  },
+  "addOns": [],
+  "setup": []
+}
