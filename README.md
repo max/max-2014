@@ -2,14 +2,14 @@
 
 A simple [Harp] site.
 
-![Heroku](http://cl.ly/image/2k3m2z443T01/deploy-button.png)
+[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](https://debut.heroku.com/templates?json=https://github.com/max/max)
 
 ## Running locally
 
 The easiest way to install Node.js is via the [official installer][Node.js]. A
 few clicks and you're done.
 
-Once you have Node.js installed simply follow these steps:
+Once you have Node.js set up simply follow these steps:
 
 ```
 $ npm install -g harp
