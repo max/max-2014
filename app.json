@@ -6,5 +6,6 @@
   ],
   "env": {
     "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
-  }
+  },
+  "addons": []
 }
