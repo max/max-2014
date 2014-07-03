@@ -1,8 +1,8 @@
 # My personal site
 
-A simple [Harp] site.
+A simple [Harp] site to serve maximilian.io.
 
-[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](https://debut.heroku.com/templates?json=https://github.com/max/max)
+[![Deploy to Heroku](https://debut.heroku.com/deploy-button.png)](https://clone.herokuapp.com/apps/max/max)
 
 ## Running locally
 
@@ -15,9 +15,8 @@ Once you have Node.js set up simply follow these steps:
 $ npm install -g harp
 $ git clone git@github.com:max/max.git
 $ cd max
-$ harp server ./
+$ harp server
 ```
 
 [Harp]: http://harpjs.com/
-[Heroku]: https://debut.heroku.com/?url=https://github.com/max/max
 [Node.js]: http://nodejs.org/

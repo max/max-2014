@@ -1,0 +1,10 @@
+{
+  "name": "Max",
+  "description": "A simple Harp app to serve maximilian.io",
+  "keywords": [
+    "harp"
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
+  }
+}
