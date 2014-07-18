@@ -2,7 +2,7 @@
 
 A simple [Harp] site to serve maximilian.io.
 
-[![Deploy to Heroku](http://cl.ly/image/2c0Y0z1v3f3c/content)](http://cl.ly/image/2c0Y0z1v3f3c/content)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://www.heroku.com/deploy)
 
 ## Running locally
 
