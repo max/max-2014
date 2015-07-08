@@ -1,11 +1,9 @@
 {
   "name": "Max",
-  "description": "A simple Harp app to serve maximilian.io",
-  "keywords": [
-    "harp"
-  ],
-  "env": {
-    "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack"
-  },
-  "addons": []
+  "description": "A simple static site to serve maximilian.io",
+  "buildpacks": [
+    {
+      "url": "https://github.com/hone/heroku-buildpack-static"
+    }
+  ]
 }
